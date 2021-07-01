@@ -1,3 +1,6 @@
 module.exports = {
-  reactStrictMode: true,
-}
+  trailingSlash: false,
+  env: {
+    SANITY_PROJECT_ID: "l5evryvp",
+  },
+};

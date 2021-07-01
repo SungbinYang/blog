@@ -147,7 +147,7 @@ export default function BlogPostDetail({ blocks }) {
       <Col span={24}>
         <BlockContent
           blocks={blocks}
-          projectId="l5evryvp"
+          projectId={process.env.SANITY_PROJECT_ID}
           dataset="production"
           serializers={serializers}
         />
